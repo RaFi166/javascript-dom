@@ -1,4 +1,4 @@
-.error{
+/* .error{
     background-color: red;
     color: white;
     padding: 10px 0px 10px 5px;
@@ -8,4 +8,32 @@
     background-color: teal;
     color: white;
     padding: 10px 0px 10px 5px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    display: block;
+}
+
+.form{
+    width: 400px;
+    margin: 80px auto;
+    align-items: center;
+}
+#text{
+    padding: 10px;
+    border-radius: 10px;
+
+}
+#btn {
+    margin-top: 15px;
+  
+    background-color: teal;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin-left: 60px;
 }
